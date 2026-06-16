@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 200" role="img" aria-label="Daniel Vazquez Sanchez - Mathematician and Machine Learning Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#0c1322"/>
+    </linearGradient>
+    <linearGradient id="curveFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1f6feb" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#1f6feb" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- card -->
+  <rect x="0" y="0" width="1000" height="200" rx="16" fill="url(#bg)"/>
+  <rect x="0.5" y="0.5" width="999" height="199" rx="15.5" fill="none" stroke="#1f6feb" stroke-opacity="0.22"/>
+
+  <!-- baseline axis -->
+  <line x1="70" y1="165" x2="930" y2="165" stroke="#30363d" stroke-width="1"/>
+  <g stroke="#30363d" stroke-width="1">
+    <line x1="180" y1="165" x2="180" y2="170"/>
+    <line x1="290" y1="165" x2="290" y2="170"/>
+    <line x1="400" y1="165" x2="400" y2="170"/>
+    <line x1="500" y1="165" x2="500" y2="172"/>
+    <line x1="600" y1="165" x2="600" y2="170"/>
+    <line x1="710" y1="165" x2="710" y2="170"/>
+    <line x1="820" y1="165" x2="820" y2="170"/>
+  </g>
+
+  <!-- gaussian distribution motif -->
+  <path d="M 80,164.3 L 120,163.3 L 160,161.1 L 200,156.6 L 240,148.8 L 280,136.3 L 320,119.0 L 360,97.8 L 400,75.7 L 440,57.1 L 480,46.4 L 500,45.0 L 520,46.4 L 560,57.1 L 600,75.7 L 640,97.8 L 680,119.0 L 720,136.3 L 760,148.8 L 800,156.6 L 840,161.1 L 880,163.3 L 920,164.3 L 920,165 L 80,165 Z"
+        fill="url(#curveFill)"/>
+  <path d="M 80,164.3 L 120,163.3 L 160,161.1 L 200,156.6 L 240,148.8 L 280,136.3 L 320,119.0 L 360,97.8 L 400,75.7 L 440,57.1 L 480,46.4 L 500,45.0 L 520,46.4 L 560,57.1 L 600,75.7 L 640,97.8 L 680,119.0 L 720,136.3 L 760,148.8 L 800,156.6 L 840,161.1 L 880,163.3 L 920,164.3"
+        fill="none" stroke="#1f6feb" stroke-opacity="0.55" stroke-width="2"/>
+  <circle cx="500" cy="45" r="3.5" fill="#58a6ff"/>
+
+  <!-- text -->
+  <text x="500" y="86" text-anchor="middle"
+        font-family="'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif"
+        font-size="42" font-weight="600" fill="#f0f6fc">Daniel V&#225;zquez S&#225;nchez</text>
+
+  <text x="500" y="118" text-anchor="middle"
+        font-family="'SFMono-Regular', 'Consolas', 'Liberation Mono', monospace"
+        font-size="15" letter-spacing="3" fill="#8b949e">MATHEMATICIAN &#183; MACHINE LEARNING ENGINEER</text>
+
+  <text x="500" y="150" text-anchor="middle"
+        font-family="'SFMono-Regular', 'Consolas', 'Liberation Mono', monospace"
+        font-size="12.5" fill="#1f6feb" fill-opacity="0.85">// I trust what I can measure</text>
+</svg>
