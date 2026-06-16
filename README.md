@@ -3,7 +3,14 @@
   Repo must be named "danvazsan2" to render as the profile README.
 -->
 
-<img src="banner.svg" alt="Daniel Vazquez Sanchez - Mathematician and Machine Learning Engineer" width="100%" />
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="banner-dark.svg" />
+  <img src="banner-light.svg" alt="Daniel Vazquez Sanchez - Mathematician and Machine Learning Engineer" width="100%" />
+</picture>
+
+</div>
 
 ---
 
